@@ -3,7 +3,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 import NotFoundPage from './NotFoundPage';
-import PlayerDetail from './PlayerDetail';
+import PlayerDetail from './PlayerDetails';
 import Flag from './Flag';
 import players from '../data/players';
 
