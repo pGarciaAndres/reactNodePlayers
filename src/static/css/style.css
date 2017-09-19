@@ -61,13 +61,13 @@ footer p {
   font-weight: bold;
 }
 
-.home .athletes-selector {
+.home .players-selector {
   clear: both;
   padding: 2em;
   text-align: center;
 }
 
-.home .athletes-selector .athlete-preview {
+.home .players-selector .player-preview {
   border: 1px solid #ccc;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   display: inline-block;
@@ -78,12 +78,12 @@ footer p {
   width: 100%;
 }
 
-.home .athletes-selector .athlete-preview img {
+.home .players-selector .player-preview img {
   margin: 0;
   width: 100%;
 }
 
-.home .athletes-selector .athlete-preview .name {
+.home .players-selector .player-preview .name {
   color: #030303;
   display: inline-block;
   font-size: 1.6em;
@@ -96,7 +96,7 @@ footer p {
   width: 100%;
 }
 
-.home .athletes-selector .athlete-preview .medals-count {
+.home .players-selector .player-preview .medals-count {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
@@ -110,7 +110,7 @@ footer p {
   vertical-align: middle;
 }
 
-nav.athletes-menu {
+nav.players-menu {
   margin: 0 auto;
   max-width: 800px;
   padding: 2em;
@@ -118,17 +118,17 @@ nav.athletes-menu {
   width: 100%;
 }
 
-nav.athletes-menu a {
+nav.players-menu a {
   font-size: 1.6em;
   margin: 0 1em 1em 0;
 }
 
-nav.athletes-menu a.active {
+nav.players-menu a.active {
   color: #030303;
   text-decoration: none;
 }
 
-.athlete {
+.player {
   border: 1px solid #ccc;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
   margin: 0 auto;
@@ -136,7 +136,7 @@ nav.athletes-menu a.active {
   width: 100%;
 }
 
-.athlete header {
+.player header {
   background: #ccc;
   background-position: center center;
   background-repeat: no-repeat;
@@ -145,12 +145,12 @@ nav.athletes-menu a.active {
   height: 200px;
 }
 
-.athlete .picture-container {
-  margin: -160px 0 0 0;
+.player .picture-container {
+  margin: 0 0 0 0;
   padding: 0 1em 0 1em;
 }
 
-.athlete .picture-container img {
+.player .picture-container img {
   border-radius: 4px;
   border: 8px solid #fff;
   box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
@@ -159,30 +159,30 @@ nav.athletes-menu a.active {
   width: 200px;
 }
 
-.athlete .picture-container h2 {
+.player .picture-container h2 {
   display: inline;
   font-size: 3em;
   padding: 0 0 0 .5em;
   width: auto;
 }
 
-.athlete .flag .icon {
+.player .flag .icon {
   display: inline-block;
   padding-bottom: .1em;
   width: auto;
 }
 
-.athlete .description,
-.athlete .medals {
+.player .description,
+.player .medals {
   font-size: 1.6em;
   padding: 1em;
 }
 
-.athlete .medals p {
+.player .medals p {
   font-size: 1em;
 }
 
-.athlete .medals li {
+.player .medals li {
   list-style: none;
 }
 
@@ -197,19 +197,19 @@ nav.athletes-menu a.active {
   width: 1.6em;
 }
 
-.athlete .medals .symbol.symbol-G {
+.player .medals .symbol.symbol-G {
   color: #daa520;
   background-color: #fff6de;
   border: 2px solid #daa520;
 }
 
-.athlete .medals .symbol.symbol-S {
+.player .medals .symbol.symbol-S {
   color: #383738;
   background-color: #b9b5b5;
   border: 2px solid #383738;
 }
 
-.athlete .medals .symbol.symbol-B {
+.player .medals .symbol.symbol-B {
   color: #6b1919;
   background-color: #ea96a1;
   border: 2px solid #6E1924;
