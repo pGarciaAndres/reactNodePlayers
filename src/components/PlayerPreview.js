@@ -8,7 +8,7 @@ export default class PlayerPreview extends React.Component {
         return (
             <Link to={`/player/${this.props.id}`}>
                 <div className="player-preview">
-                    <img src={`img/${this.props.image}`}/>
+                    <img src={`img/roster/${this.props.image}`}/>
                     <h2 className="name">{this.props.name}</h2>
                     <span className="position">{this.props.position}</span>
                 </div>

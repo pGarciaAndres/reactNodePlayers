@@ -16,7 +16,7 @@ const players = [
         'country':  'Florida',
         'college':  'UCLA',
         'image': 'russell-westbrook.png',
-        'cover': 'cover/russell-westbrook-cover.png',
+        'cover': 'russell-westbrook-cover.png',
         'link': 'https://en.wikipedia.org/wiki/Russell_Westbrook'
     },
     {
@@ -34,7 +34,7 @@ const players = [
         'country':  'California',
         'college':  'Arizona',
         'image': 'james-harden.png',
-        'cover': 'cover/james-harden-cover.png',
+        'cover': 'james-harden-cover.png',
         'link': 'https://en.wikipedia.org/wiki/James_Harden'
     },
     {
@@ -52,7 +52,7 @@ const players = [
         'country':  'Ohio',
         'college':  'St. Vincent',
         'image': 'lebron-james.png',
-        'cover': 'cover/lebron-james-cover.png',
+        'cover': 'lebron-james-cover.png',
         'link': 'https://en.wikipedia.org/wiki/LeBron_James'
     },
     {
@@ -70,7 +70,7 @@ const players = [
         'country':  'California',
         'college':  'San Diego State',
         'image': 'kawhi-leonard.png',
-        'cover': 'cover/kawhi-leonard-cover.png',
+        'cover': 'kawhi-leonard-cover.png',
         'link': 'https://en.wikipedia.org/wiki/Kawhi_Leonard'
     },
     {
@@ -88,7 +88,7 @@ const players = [
         'country':  'Chicago',
         'college':  'Illinois',
         'image': 'anthony-davis.png',
-        'cover': 'cover/anthony-davis-cover.png',
+        'cover': 'anthony-davis-cover.png',
         'link': 'https://en.wikipedia.org/wiki/Anthony_Davis_(basketball)'
     }
 ];

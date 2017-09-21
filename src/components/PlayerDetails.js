@@ -8,28 +8,28 @@ export default class PlayerDetails extends React.Component {
         return (
           <ul className="player-details">
               <li className="player-detail">
-                  <span className="team">{this.props.player.team}</span>
+                  <span className="team">Team: {this.props.player.team}</span>
               </li>
               <li className="player-detail">
-                  <span className="position">{this.props.player.position}</span>
+                  <span className="position">Position: {this.props.player.position}</span>
               </li>
               <li className="player-detail">
-                  <span className="dorsal">{this.props.player.dorsal}</span>
+                  <span className="dorsal">Dorsal: {this.props.player.dorsal}</span>
               </li>
               <li className="player-detail">
-                  <span className="age">{this.props.player.age}</span>
+                  <span className="age">Age: {this.props.player.age}</span>
               </li>
               <li className="player-detail">
-                  <span className="height">{this.props.player.height}</span>
+                  <span className="height">Height: {this.props.player.height}</span>
               </li>
               <li className="player-detail">
-                  <span className="weight">{this.props.player.weight}</span>
+                  <span className="weight">Weight: {this.props.player.weight}</span>
               </li>
               <li className="player-detail">
-                  <span className="country"><Flag code={this.props.player.nationality} showName="false"/>{this.props.player.country}</span>
+                  <span className="country">From: <Flag code={this.props.player.nationality} showName="true"/> {this.props.player.country}</span>
               </li>
               <li className="player-detail">
-                  <span className="college">{this.props.player.college}</span>
+                  <span className="college">College: {this.props.player.college}</span>
               </li>
           </ul>  
         );

@@ -14,7 +14,7 @@ export default class PlayerPage extends React.Component {
         if (!player) {
             return <NotFoundPage/>;
         }
-        const headerStyle = { backgroundImage: 'url(/img/${player.cover})' };
+        const headerStyle = { backgroundImage: `url(/img/cover/${player.cover})` };
         return (
             <div className="player-full">
                 <div className="player">
