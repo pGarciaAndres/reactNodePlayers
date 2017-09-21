@@ -4,15 +4,20 @@ import React from 'react';
 import { Link } from 'react-router';
 
 export default class PlayerPreview extends React.Component {
+
     render() {
         return (
-            <Link to={`/player/${this.props.id}`}>
-                <div className="player-preview">
-                    <img src={`img/roster/${this.props.image}`}/>
-                    <h2 className="name">{this.props.name}</h2>
-                    <span className="position">{this.props.position}</span>
+            <div className="player-preview" >
+                <div className="player-mask"></div>
+                <div className="dark">
+                    <span className="dorsal">{this.props.dorsal}</span>
                 </div>
-            </Link>
+                <h2 className="name">{this.props.name}</h2>    
+                <p className="long-position">{this.props.longPosition}</p>    
+                <img src={`img/game/${this.props.image}`}/>
+            </div>
         );
     }
 }
+
+
