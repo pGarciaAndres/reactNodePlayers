@@ -18,8 +18,13 @@ a {
   text-decoration: underline;
 }
 
+.app-container {
+  background-size: cover;
+}
+
 header {
   padding: 2em;
+  height: 100px;
 }
 
 header .logo {
@@ -100,6 +105,7 @@ footer p {
   font-weight: bold;
   white-space: normal;
   max-inline-size: min-content;
+  z-index: 0;
 }
 
 .home .players-selector .player-preview .long-position {
@@ -109,6 +115,7 @@ footer p {
   font-size: 12px;
   text-align: left;
   left: 3px;
+  z-index: 0;
 }
 
 .home .players-selector .player-preview .medals-count {
@@ -133,6 +140,7 @@ footer p {
   background-color: white;
   opacity: 0;
   cursor: pointer;
+  z-index: 1;
 }
 
 .home .players-selector .player-preview .player-mask:hover {
@@ -146,6 +154,7 @@ footer p {
   bottom: 20px;
   background-color: black;
   opacity: 0.6;
+  z-index: 0;
 }
 
 .home .players-selector .player-preview .dorsal {
