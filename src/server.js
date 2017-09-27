@@ -13,7 +13,7 @@ const server = new Server(app);
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-// Definition of the folder that will be useed for static assets.
+// Definition of the folder that will be used for static assets.
 app.use(Express.static(path.join(__dirname, 'static')));
 
 // Universal routing and rendering.
