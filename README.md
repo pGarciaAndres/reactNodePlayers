@@ -11,7 +11,7 @@ $ npm install --save-dev webpack@1.13.x babel-loader@6.2.x http-server@0.9.x
 
 # Deployment
 - Now we are ready to generate our bundle file, you just need to run:
-$ NODE_ENV=production node_modules/.bin/webpack -p
+$ npm run build
 
 - We are finally ready to play with the first version of our app!:
-$ node_modules/.bin/http-server src/static
+$ npm start
