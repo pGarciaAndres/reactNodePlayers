@@ -129,7 +129,7 @@ footer p {
   z-index: 1;
 }
 
-#playerMask:hover + #dark {
+#playerMask:hover + img {
   /* -moz-transform: scale(1.1);
   -webkit-transform: scale(1.1);
   transform: scale(1.1); */

@@ -9,7 +9,7 @@ export default class PlayerPreview extends React.Component {
         return (
             <div className="player-preview">
                 <div id="playerMask" className="player-mask"></div>
-                <div id="dark" className="dark">
+                <div className="dark">
                     <span className="dorsal">{this.props.dorsal}</span>
                 </div>
                 <h2 className="name">{this.props.name}</h2>    
